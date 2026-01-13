@@ -96,7 +96,7 @@ filtered_df = df[
 # --------------------------------------------------
 # Main title
 # --------------------------------------------------
-st.title("📊 Unemployment Rates Across African Economies")
+st.title("An Empirical Comparison of Machine Learning Models for Early Prediction of Unemployment Rates Across Countries")
 st.markdown("Interactive analysis of unemployment trends — World Bank data")
 
 # --------------------------------------------------
