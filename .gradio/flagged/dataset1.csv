@@ -1,2 +1,3 @@
-Select Country,Predicted Unemployment Rate for 2025,timestamp
-Zambia,10.90%,2025-12-29 14:41:28.469516
+Model Performance Metrics,timestamp
+"{""headers"": [""Model"", ""RMSE"", ""R\u00b2""], ""data"": [[""Linear Regression"", 1.0759, 0.9405], [""Random Forest"", 1.1114, 0.9365], [""XGBoost"", 1.0752, 0.9405]], ""metadata"": null}",2026-01-04 16:58:23.774210
+"{""headers"": [""Model"", ""RMSE"", ""R\u00b2""], ""data"": [[""Linear Regression"", 1.0759, 0.9405], [""Random Forest"", 1.1114, 0.9365], [""XGBoost"", 1.0752, 0.9405]], ""metadata"": null}",2026-01-04 17:05:59.307230
