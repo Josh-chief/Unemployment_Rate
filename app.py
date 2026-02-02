@@ -19,7 +19,7 @@ from pathlib import Path
 # --------------------------------------------------
 # Page config
 # --------------------------------------------------
-st.set_page_config(page_title="Unemployment Trends & ML Forecasting", page_icon="📈", layout="wide")
+st.set_page_config(page_title="Unemployment Trends & ML Forecasting", page_icon="", layout="wide")
 
 # --------------------------------------------------
 # Load and clean data (Notebook-aligned)
@@ -190,8 +190,8 @@ st.divider()
 # Tabs
 # --------------------------------------------------
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
-    ["📈 Trends", "📊 Distribution", "🌍 Regional Trends", "🔥 Heatmap & Corr", 
-     "📉 Prediction & YoY", "📋 Results & Models"]
+    [" Trends", "Distribution", " Regional Trends", " Heatmap & Corr", 
+     " Prediction & Year over Year", " Results & Models"]
 )
 
 # TAB 1: Trends + Smoothing
