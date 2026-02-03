@@ -168,12 +168,7 @@ filtered_df = df[
 # --------------------------------------------------
 st.title("An Empirical Comparison of Machine Learning Models for Early Prediction of Unemployment Rates Across Countries")
 
-st.markdown("""
-## Abstract
-Unemployment rates are among the clearest measures of a country’s economic well-being, influencing consumer spending, poverty levels and the overall stability of societies. This study analyzes a large dataset from the World Bank’s World Development Indicators, covering unemployment rates for 266 countries and regions between 1991 and 2024. Using descriptive statistics and visualization, the analysis highlights long-term shifts in unemployment patterns, with global crises such as the 2008 financial crash and the COVID-19 pandemic in 2020 standing out and with persistent regional disparities, Africa consistently showing higher unemployment levels compared to Europe.
-
-Beyond descriptive analysis, the study applies predictive modeling to forecast unemployment one year ahead. Four algorithms (Linear Regression, Random Forest, XGBoost, and Elastic Net) were trained on historical data (1991–2019) and tested on the period 2020–2024, with performance evaluated using RMSE and R². Among the four, Elastic Net achieved the best accuracy, followed closely by XGBoost, effectively capturing non-linear dynamics and sudden shocks. These findings provide evidence that advanced machine learning approaches can enhance the accuracy of unemployment forecasting, offering useful insights for policymakers and economic planners.
-""")
+st.markdown("")
 
 # --------------------------------------------------
 # KPI
@@ -308,6 +303,4 @@ with tab6:
     st.dataframe(filtered_df, use_container_width=True)
 
     st.subheader("Conclusion")
-    st.markdown("""
-    In conclusion, this study analyzed unemployment trends for 266 countries from 1991 to 2024 and compared four forecasting models. Elastic Net outperformed the others, with XGBoost showing strong accuracy in capturing non-linear changes and economic shocks such as the 2008 financial crisis and the COVID-19 pandemic. The analysis revealed persistent regional disparities, with Africa facing higher unemployment levels than Europe. These findings demonstrate that machine learning models can provide early-warning signals, enabling policymakers and international organizations to plan timely interventions. Despite limitations such as missing data and unmodeled external factors, the models form a basis for future economic forecasting and can be enhanced by including additional indicators and advanced machine learning methods.
-    """)
+    st.markdown("")
